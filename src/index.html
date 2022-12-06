@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="dist/index.js" type="module" defer></script>
+  <title>ToDo Ts List</title>
+</head>
+<body>
+  <header>
+    <form class="addToDo--form">
+      <h1 class="addToDo--form__heading">Register New ToDo</h1>
+      <label class="addToDo--form__label" for="title">Title</label>
+      <input class="addToDo--form__title" type="text" id="title">
+      <label class="addToDo--form__label" for="description">Description</label>
+      <input class="addToDo--form__description" type="text" id="description">
+      <input class="addToDo--submit__button" type="submit" value="Add">
+    </form> 
+   </header>
+
+   <main>
+    <ul class="toDo-list">
+      <!-- list handled by index.ts -->
+    </ul>
+   </main>
+</body>
+</html>
